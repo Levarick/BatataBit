@@ -20,3 +20,65 @@ html {
     font-family: 'DM Sans', sans-serif;
     font-size: 62.5%;
 }
+
+header {
+    width: 100%;   
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 320px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201e1c, #f7931a);
+    color: var(--just-white);
+}
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 39px;
+    align-self: center ;
+}
+
+.header--title-container {
+    width: 90%;
+    min-width: 320px;
+    max-width: 336px;
+    height: 218px;
+    align-self: center;
+}
+
+header h1 {
+    height: 78px;
+    margin-top: 33px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+header p {
+    height: 35px;
+    margin-top: 24px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--soft-orange);
+}
+
+.header--title-container .header--button {
+    position: absolute;
+    display: block;
+    left: calc(50% - 118px);
+    top: 260px;
+    width: 229px;
+    height: 48px;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: var(--warm-black);
+    background-color: var(--off-white);
+    box-shadow:0 5px 5px 0 #00000022;
+
+}
