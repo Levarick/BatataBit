@@ -21,6 +21,21 @@ html {
     font-size: 62.5%;
 }
 
+h1 {
+    height: 78px;
+    margin-top: 33px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+p {
+    height: 35px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+
 header {
     width: 100%;   
     height: fit-content;
@@ -40,35 +55,23 @@ header img {
     align-self: center ;
 }
 
+header p {
+    margin-top: 24px;
+    color: var(--soft-orange);
+}
+
 .header--title-container {
     width: 90%;
-    min-width: 320px;
-    max-width: 336px;
+    min-width: 280px;
+    max-width: 600px;
     height: 218px;
     align-self: center;
 }
 
-header h1 {
-    height: 78px;
-    margin-top: 33px;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-}
-
-header p {
-    height: 35px;
-    margin-top: 24px;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    font-weight: 500;
-    color: var(--soft-orange);
-}
-
 .header--title-container .header--button {
-    position: absolute;
-    display: block;
-    left: calc(50% - 118px);
-    top: 260px;
+    position: relative;
+    display: inline-block;
+    top: 20px;
     width: 229px;
     height: 48px;
     padding: 15px;
@@ -80,5 +83,39 @@ header p {
     color: var(--warm-black);
     background-color: var(--off-white);
     box-shadow:0 5px 5px 0 #00000022;
+}
 
+.header--title-container .header--button span {
+    margin-left: 10px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url("../assets/arrow_down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;  
+    min-width: 320px; 
+}
+
+.main--section-container {
+    min-width: 280px;
+}
+
+#section-one {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-one img {
+    margin-top: 59px;
+    width: 195px;
+    align-self: center;
 }
