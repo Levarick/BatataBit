@@ -1,0 +1,11 @@
+.product--card-container {
+    margin: auto;
+    display: flex;
+    width: 726px;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+}
+
+.plans--slider {
+    justify-content: center;
+}
