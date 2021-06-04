@@ -267,6 +267,7 @@ main {
     margin-top: 50px;
     margin-bottom: 65px;
     height: 247px;
+    max-width: 190px;
     border-radius: 8px;
     background-color: var(--just-white);
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
