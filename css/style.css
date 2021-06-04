@@ -146,11 +146,13 @@ main {
 }
 
 .main--table-container h2 {
+    text-align: start;
+    padding-left: 10px;
     font-size: 1.8rem;
     align-self: center;
     color: var(--bitcoin-orange);
     display: grid;
-    grid-template-columns: repeat(2, 110px);
+    grid-template-columns: repeat(2, minmax(110px, 250px));
 }
 
 .main--table-container .main--table-grid {
@@ -160,7 +162,7 @@ main {
     align-self: center;
     margin-top: 12px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(110px, 300px));
+    grid-template-columns: repeat(2, minmax(110px, 250px));
     grid-template-rows: repeat(4,39px);
 }
 
@@ -263,7 +265,7 @@ main {
 .main--buy-content {
     display: flex;
     flex-direction: column;
-    margin: 0 65px;
+    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 65px;
     height: 247px;
